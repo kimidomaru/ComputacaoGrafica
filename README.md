@@ -18,3 +18,7 @@ Repositório de exercícios feitos durante a disciplina de Computação Gráfica
   ## [Trabalho 5 - Paraboloide Equacao Implicita](PyOpenGL/parabImplicit.py)
 
   ## [Trabalho 6 - Paraboloide de Revolucao](PyOpenGL/parabRev.py)
+  
+  ## [Trabalho 7 - Dado Texturizado](PyOpenGL/dado.py)
+  
+  ## [Trabalho 8 - Esfera Texturizada](PyOpenGL/esferaTex.py)
