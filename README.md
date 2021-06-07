@@ -21,4 +21,14 @@ Repositório de exercícios feitos durante a disciplina de Computação Gráfica
   
   ## [Trabalho 7 - Dado Texturizado](PyOpenGL/dado.py)
   
-  ## [Trabalho 8 - Esfera Texturizada](PyOpenGL/esferaTex.py)
+  ## [Trabalho 8 - Piramide Texturizada](PyOpenGL/piramideTex.py)
+  **Botão do Meio do Mouse**: Alterna entre pirâmide e prisma. 
+  
+  ## [Trabalho 9 - Esfera Texturizada](PyOpenGL/esferaTex.py)
+  
+  ## [Trabalho 10 - Iluminação Piramide/Prisma](PyOpenGL/ilum.py)
+  __Botão esquerdo do Mouse__: Aumenta o nº de vértices do sólido.
+  
+  __Botão direito do Mouse__: Diminui o nº de vértices do sólido.
+  
+  __Botão do Meio do Mouse__: Alterna entre pirâmide e prisma. 
