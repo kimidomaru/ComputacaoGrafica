@@ -58,45 +58,45 @@ def figure():
     #Y 
     GL.glRotatef(beta, 0.0, 0.0, 1.0)
 
-    # Figure
     GL.glBindTexture(GL.GL_TEXTURE_2D, texture[0])
     GL.glBegin(GL.GL_QUADS)
 
-    # Front Face
-    GL.glTexCoord2f(0.0, 0.0); GL.glVertex3f(-1.0, -1.0,  1.0)
-    GL.glTexCoord2f(1/3, 0.0); GL.glVertex3f( 1.0, -1.0,  1.0)
-    GL.glTexCoord2f(1/3, 1/2); GL.glVertex3f( 1.0,  1.0,  1.0)
-    GL.glTexCoord2f(0.0, 1/2); GL.glVertex3f(-1.0,  1.0,  1.0)  
-
-    # Back Face
-    GL.glTexCoord2f(2/3, 1/2); GL.glVertex3f(-1.0, -1.0, -1.0)
-    GL.glTexCoord2f(1.0, 1/2); GL.glVertex3f(-1.0,  1.0, -1.0)
-    GL.glTexCoord2f(1.0, 1.0); GL.glVertex3f( 1.0,  1.0, -1.0)
-    GL.glTexCoord2f(2/3, 1.0); GL.glVertex3f( 1.0, -1.0, -1.0) 
-    
-    # Top Face
+    # Cima
     GL.glTexCoord2f(1/3, 1/2); GL.glVertex3f(-1.0,  1.0, -1.0)
     GL.glTexCoord2f(2/3, 1/2); GL.glVertex3f(-1.0,  1.0,  1.0)
     GL.glTexCoord2f(2/3, 1); GL.glVertex3f( 1.0,  1.0,  1.0)
     GL.glTexCoord2f(1/3, 1); GL.glVertex3f( 1.0,  1.0, -1.0)  
 
-    # Bottom Face       
+    # Baixo     
     GL.glTexCoord2f(1/3, 0.0); GL.glVertex3f(-1.0, -1.0, -1.0)
     GL.glTexCoord2f(2/3, 0.0); GL.glVertex3f( 1.0, -1.0, -1.0)
     GL.glTexCoord2f(2/3, 1/2); GL.glVertex3f( 1.0, -1.0,  1.0)
     GL.glTexCoord2f(1/3, 1/2); GL.glVertex3f(-1.0, -1.0,  1.0)    
     
-    # Right face
-    GL.glTexCoord2f(0.0, 1/2); GL.glVertex3f( 1.0, -1.0, -1.0)
-    GL.glTexCoord2f(1/3, 1/2); GL.glVertex3f( 1.0,  1.0, -1.0)
-    GL.glTexCoord2f(1/3, 1.0); GL.glVertex3f( 1.0,  1.0,  1.0)
-    GL.glTexCoord2f(0.0, 1.0); GL.glVertex3f( 1.0, -1.0,  1.0) 
-    
-    # Left Face
+    # Esquerda
     GL.glTexCoord2f(2/3, 0.0); GL.glVertex3f(-1.0, -1.0, -1.0)
     GL.glTexCoord2f(1.0, 0.0); GL.glVertex3f(-1.0, -1.0,  1.0)
     GL.glTexCoord2f(1.0, 1/2); GL.glVertex3f(-1.0,  1.0,  1.0)
     GL.glTexCoord2f(2/3, 1/2); GL.glVertex3f(-1.0,  1.0, -1.0)  
+
+    # Direita
+    GL.glTexCoord2f(0.0, 1/2); GL.glVertex3f( 1.0, -1.0, -1.0)
+    GL.glTexCoord2f(1/3, 1/2); GL.glVertex3f( 1.0,  1.0, -1.0)
+    GL.glTexCoord2f(1/3, 1.0); GL.glVertex3f( 1.0,  1.0,  1.0)
+    GL.glTexCoord2f(0.0, 1.0); GL.glVertex3f( 1.0, -1.0,  1.0) 
+
+    # Frente
+    GL.glTexCoord2f(0.0, 0.0); GL.glVertex3f(-1.0, -1.0,  1.0)
+    GL.glTexCoord2f(1/3, 0.0); GL.glVertex3f( 1.0, -1.0,  1.0)
+    GL.glTexCoord2f(1/3, 1/2); GL.glVertex3f( 1.0,  1.0,  1.0)
+    GL.glTexCoord2f(0.0, 1/2); GL.glVertex3f(-1.0,  1.0,  1.0)  
+
+    # Trás
+    GL.glTexCoord2f(2/3, 1/2); GL.glVertex3f(-1.0, -1.0, -1.0)
+    GL.glTexCoord2f(1.0, 1/2); GL.glVertex3f(-1.0,  1.0, -1.0)
+    GL.glTexCoord2f(1.0, 1.0); GL.glVertex3f( 1.0,  1.0, -1.0)
+    GL.glTexCoord2f(2/3, 1.0); GL.glVertex3f( 1.0, -1.0, -1.0) 
+    
     
     GL.glEnd()
 
